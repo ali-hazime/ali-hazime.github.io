@@ -84,7 +84,7 @@ body {
        position: absolute;
        margin-top: -14px;
        z-index: 100;
-       margin-left: 55px;
+       margin-left: 20px;
    }
 
    .tabs li > a{
@@ -104,18 +104,12 @@ body {
 
    }
 
-   a.tab-profile.active{
-       border-radius: 5px;
-       background:#bfc1c4f5;
-       color: #195bb1c9;
-       box-shadow: 0 0 25px #131212;
+   .tabs li.active a{
+        color: #195bb1c9;
    }
+   
 
-   a.tab-profile.active:hover{
-       box-shadow: 0 0 11px #131212;
-   }
-
-   a.tab-profile.active i{
+   .tabs li.active i{
        animation: bounce 2s infinite;
    }
 
@@ -140,7 +134,7 @@ body {
    }
 
     .tabs .tmenu {
-        display: inline-block;
+        float: left;
     }
 
    #logo{
@@ -159,6 +153,5 @@ body {
        font-family: 'Oswald', sans-serif;
        font-size: 20px;
    }
-
 
    

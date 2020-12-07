@@ -15,6 +15,7 @@
 
         <link rel="stylesheet"
         href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+        
 
         <link rel="stylesheet" href="css/style.css">
     </head>
@@ -46,27 +47,28 @@
 
             <nav class="menu">
                 <ul class="tabs">
+                    
                     <li class="tmenu">
-                     <a href="#about" class="tab-profile active">
-                        <i><i class="fa fa-user"></i></i>ABOUT
+                     <a href="#profile" class="tab-profile">
+                        <i><i class="fa fa-user" aria-hidden="true"></i></i>ABOUT
                      </a>
                     </li>
 
                     <li class="tmenu">
                      <a href="#portfolio">
-                        <i><i class="fa fa-folder-open"></i></i>PORTFOLIO
+                        <i><i class="fa fa-folder-open" aria-hidden="true"></i></i>PORTFOLIO
                      </a>
                     </li>
 
                     <li class="tmenu">
                      <a href="#resume">
-                        <i><i class="fa fa-address-card"></i></i>RESUME
+                        <i><i class="fa fa-address-card" aria-hidden="true"></i></i>RESUME
                      </a>
                     </li>    
                     
                     <li class="tmenu">
                      <a href="#contact">
-                        <i><i class="fa fa-paper-plane"></i></i>CONTACT
+                        <i><i class="fa fa-paper-plane" aria-hidden="true"></i></i>CONTACT
                      </a>
                     </li>
                 </ul>
@@ -105,11 +107,26 @@
 
     </section>
   
-    <script src="https://code.jquery.com/jquery-3.5.1.js"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
-    <script src="js/main.js"></script>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/jquery.magnific-popup.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.easytabs/3.2.0/jquery.easytabs.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.isotope/1.5.25/jquery.isotope.min.js"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.2.1/jquery.carouFredSel.packed.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery.caroufredsel/6.1.0/jquery.carouFredSel.packed.min.js"></script>
+    <script src="js/main.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+    <script src="js/custom.js"></script>
+    <script>
+        
+        $(document).ready(function() {
+      $("#portfolio").magnificPopup({
+          delegate: 'a',
+          type:'image',
+          gallery: {
+              enabled: true
+          }
+      });
+    });
+        
+    </script>
 </body>
 </html>
