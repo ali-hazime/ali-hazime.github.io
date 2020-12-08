@@ -48,29 +48,6 @@ jQuery(document).ready(function(){
 		});
 
     });
-
-	/* ---------------------------------------------------------------------- */
-	/*	About
-	/* ---------------------------------------------------------------------- */
-	
-	// Profile Photo Slider
-	 $(".photo-inner ul").carouFredSel({
-        direction           : "left",
- 	    circular: true,
-        auto    			: true,
-        scroll 			: {
-            items           : 1,
-            fx 				: 'crossfade',
-            duration        : 1500,                        
-            wipe    		: true
-        },
-	    swipe: {
-	        onTouch: true
-	    },
-        items: {
-            width: 153
-        }           
-    });
 	 
 	/* ---------------------------------------------------------------------- */
 	/*	Menu
