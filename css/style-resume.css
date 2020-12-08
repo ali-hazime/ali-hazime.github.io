@@ -70,12 +70,28 @@ h6{font-family: 'Oswald', sans-serif!important;}
     color: #383838;
     font-size: 14px;
 }
+
+.left-technical li {
+    list-style: none;
+    margin-bottom: 10px;
+    font-weight: 600;
+    color: #383838;
+    font-size: 14px;
+
+}
+
 .text-color {
     color: #4c88d69d;
 }
 
 .left-contact span {
     width: 84px;
+    display: inline-block;
+    text-transform: uppercase;
+}
+
+.left-technical span {
+    width: 205px;
     display: inline-block;
     text-transform: uppercase;
 }
@@ -110,17 +126,20 @@ h6{font-family: 'Oswald', sans-serif!important;}
 }
 
 .ex-box h5 {
+    font-size: 16px;
     color: white;
 }
 
 .ex-box h6 {
+    font-size: 15px;
     color: white;
 }
 
 .ex-box li {
-    font-size: 13px;
-    font-weight: 600;
+    font-size: 14px;
+    font-weight: 520;
     color: #ffffff;
+    padding: 5px 5px 0px; 
 }
 
 .ed-heading h2 {
@@ -145,18 +164,18 @@ h6{font-family: 'Oswald', sans-serif!important;}
 .ed-box h4 {
     font-size: 17px;
     font-weight: 500;
-    padding: 10px 20px 5px; 
+    padding: 20px 20px 5px; 
 }
 
 .ed-box h5 {
     font-size: 16px;
-    padding: 5px 20px 0px; 
+    padding: 0px 20px 0px; 
     color: rgb(0, 0, 0);
 }
 
 .ed-box h6 {
     font-size: 14px;
-    padding: 5px 20px 0px; 
+    padding: 0px 20px 0px; 
     color: rgb(0, 0, 0);
 }
 
@@ -164,26 +183,31 @@ h6{font-family: 'Oswald', sans-serif!important;}
     font-size: 13px;
     font-weight: 600;
     color: #000000;
-    padding: 5px 35px 5px; 
+    padding: 0px 35px 5px; 
 }
 
-.top-skills {
-    text-align: left;
-    padding: 40px;
+.top-skills li {
+    font-size: 15px;
+    font-weight: 700;
+    color: #000000;
+    padding: 5px 20px 5px; 
 }
 
 .left-contact {
     padding: 10px 0px 0px 20px;
 }
 
+.left-technical {
+    padding: 10px 0px 0px 20px;
+}
 
-.heading-skills h3 {
+.skills-heading h2 {
+    background: #4c88d69d;
     color: #fff;
-    font-size: 21px;
-    text-transform: uppercase;
-    letter-spacing: 2px;
     font-weight: 600;
-    padding-bottom: 14px;
+    letter-spacing: 5px;
+    padding: 6px 27px;
+    font-size: 25px;
 }
 
 .mt-25{margin-top:25px;}
@@ -192,39 +216,16 @@ h6{font-family: 'Oswald', sans-serif!important;}
     display: inline-block;
     padding: 35px 35px 35px 35px;
 }
-.eduction-left .ex-box {
-    padding: 27px 27px 0px 0px;
-}
+
 .eduction-left h3 {
     padding-bottom: 0px;
 }
-.eduction-left .ex-box h4 {
-    color: #fff;
-    letter-spacing: 2px;
-    font-weight: 400;
-}
- .eduction-left .ex-box p {
-    color: #fff;
-     font-weight: 400;
-}
+
 
 .col-md-6.no-padding.bg-color-left {
     padding-bottom: 30px;
 }
-.skill-name ul li {
-    list-style: none;
-    display: inline-block;
-    width: 7px;
-    height: 7px;
-    background: #fff;
-    border-radius: 50%;
-}
 
-.top-skills {
-    display: flex;
-    text-align: left;
-    margin: 0 auto;
-    width: 451px;
-}
+
 
  
