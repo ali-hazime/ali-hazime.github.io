@@ -107,6 +107,10 @@ body {
        margin-right: 35px;
    }
 
+   .tabs li > a:hover{
+       color: #130707d2;
+   }
+
    .tabs li.active a{
         color: #195bb1c9;
    }
@@ -247,6 +251,10 @@ form label{
     font-size: 14px;
 }
 
+.button:hover{
+    background-color: #868d979a;
+}
+
 h3.main-heading {
 	margin: 0px 2px 20px 0px;
 	border-bottom: 1px solid #ebebeb;
@@ -288,4 +296,8 @@ h3.main-heading::after {
 .contact-info li a{
     font-size:18px;
     color: #ffffff;
+}
+
+.contact-info li a:hover{
+    color: #ffffff94;
 }
