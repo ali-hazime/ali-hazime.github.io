@@ -1,20 +1,20 @@
 jQuery(document).ready(function(){ 
 	
 	/* ---------------------------------------------------------------------- */
-	/*	Custom Functions
+	/*	Header Functions
 	/* ---------------------------------------------------------------------- */
 
-	// Logo
+	// Name header fade
 	var $logo 	= $('#logo');
 
     if (location.href.indexOf("#") != -1) {
         $logo.show();
     }
-	// Show logo 
+	// Show name 
 	$('.menu .tabs a').click(function() {
 	  $logo.fadeIn('slow');
 	});
-	// Hide logo
+	// Hide name
 	$('.tab-profile').click(function() {
 	  $logo.fadeOut('slow');
 	});	
@@ -25,17 +25,17 @@ jQuery(document).ready(function(){
 	/* ---------------------------------------------------------------------- */
 	
 	// Needed variables
-	var $content 		= $("#content");
+	var $content = $("#content");
 	
 	// Run easytabs
-  	$content.easytabs({
-	  animate			: true,
-	  updateHash		: false,
-	  transitionIn		:'slideDown',
-	  transitionOut		:'slideUp',
-	  animationSpeed	:600,
-	  tabs				:".tmenu",
-	  tabActiveClass	:'active',
+	$content.easytabs({
+		animate			: true,
+		updateHash		: false,
+		transitionIn	:'slideDown',
+		transitionOut	:'slideUp',
+		animationSpeed	:600,
+		tabs			:".tmenu",
+		tabActiveClass	:'active',
 	});
 
 	
