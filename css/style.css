@@ -9,6 +9,10 @@ body {
        margin-top: 100px;
    }
 
+   a, a:hover{
+       text-decoration: none;
+   }
+
    #content{
        background-color: #4c88d69d;
    }
@@ -300,4 +304,58 @@ h3.main-heading::after {
 
 .contact-info li a:hover{
     color: #ffffff94;
+}
+
+#portfolio{
+    padding: 50px;
+}
+
+.description-text{
+    font-family: 'Roboto Condensed', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 20px;
+    font-size: 20px;
+}
+
+#portfolio-list li{
+    flex: left;
+    margin-right: 25px;
+    text-align: left;
+    height: 280px;
+    margin-bottom: 30px;
+    width: 860px;
+    
+}
+
+.vline{
+    border-left: 2px solid rgb(255, 255, 255);
+    height: 280px;
+    position: absolute;
+    left: 50%;
+    top: 0;
+    margin-left: -3px;
+
+}
+
+#portfolio-list img{
+    height: 240px;
+    width: 370px;
+}
+
+#portfolio-list li .title{
+    font-size: 20px;
+    margin-top: 15px;
+    font-weight: 400;
+    color: white;
+    font-family: 'Oswald', sans-serif;
+    margin-left: 150px;
+}
+
+.desc{
+    position: absolute;
+    left: 55%;
+    top: 0;
+    color: white;
+    font-family: 'Oswald', sans-serif;
 }
