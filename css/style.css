@@ -307,14 +307,14 @@ h3.main-heading::after {
 }
 
 #portfolio{
-    padding: 50px;
+    padding: 25px 50px 40px;
 }
 
 .description-text{
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
     color: white;
-    margin-bottom: 20px;
+    margin-bottom: 25px;
     font-size: 20px;
 }
 
@@ -358,4 +358,8 @@ h3.main-heading::after {
     top: 0;
     color: white;
     font-family: 'Oswald', sans-serif;
+}
+
+.hidden-images{
+    display: none;
 }
