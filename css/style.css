@@ -76,7 +76,7 @@ body {
    
    .socialicons {
        float: right;
-       font-size:  24px;
+       font-size:  28px;
    }
 
    .menu {
@@ -172,7 +172,6 @@ body {
 
 #contact{
     overflow: hidden;
-    font-family: 'Roboto Condesned', sans-serif;
 }
 
 .contact-info, .contact-form{
@@ -272,7 +271,6 @@ h3.main-heading {
 	position: relative;
     font-family: 'Roboto Condensed', sans-serif;
     text-transform: uppercase;
- 
 }
 
 h3.main-heading .now{
@@ -311,31 +309,42 @@ h3.main-heading::after {
 }
 
 .description-text{
-    font-family: 'Roboto Condensed', sans-serif;
+    font-family: 'Oswald', sans-serif;
+    text-transform: uppercase;
+    color: white;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+
+.description-text-mini{
+    font-family: 'Oswald', sans-serif;
     text-transform: uppercase;
     color: white;
     margin-bottom: 25px;
-    font-size: 20px;
+    font-size: 14px;
 }
 
 #portfolio-list li{
     flex: left;
     margin-right: 25px;
     text-align: left;
-    height: 280px;
-    margin-bottom: 30px;
+    height: 300px;
+    margin-bottom: 40px;
     width: 860px;
-    
 }
 
 .vline{
     border-left: 2px solid rgb(255, 255, 255);
-    height: 280px;
+    height: 300px;
     position: absolute;
     left: 50%;
     top: 0;
     margin-left: -3px;
+}
 
+.rhethiel-icon{
+    height: 30px !important;
+    width: 30px !important;
 }
 
 #portfolio-list img{
@@ -343,13 +352,17 @@ h3.main-heading::after {
     width: 370px;
 }
 
-#portfolio-list li .title{
-    font-size: 20px;
+#portfolio-list img:hover{
+    opacity: 0.5;
+}
+
+#portfolio-list .title{
+    font-size: 36px;
     margin-top: 15px;
     font-weight: 400;
     color: white;
     font-family: 'Oswald', sans-serif;
-    margin-left: 150px;
+    text-transform: uppercase;
 }
 
 .desc{
@@ -357,9 +370,20 @@ h3.main-heading::after {
     left: 55%;
     top: 0;
     color: white;
-    font-family: 'Oswald', sans-serif;
+    font-family: 'Roboto Condensed', sans-serif;
+    font-size: 15.5px;
+}
+
+.desc a{
+    color: white;
+}
+
+.desc a:hover{
+    color: rgba(255, 255, 255, 0.664);
 }
 
 .hidden-images{
     display: none;
 }
+
+

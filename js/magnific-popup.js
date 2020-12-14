@@ -1,6 +1,6 @@
     $(document).ready(function() {
 
-      $(".projects").magnificPopup({
+      $(".image-container-1").magnificPopup({
           delegate: 'a',
           type:'image',
           gallery: {
