@@ -112,11 +112,11 @@ body {
    }
 
    .tabs li > a:hover{
-       color: #130707d2;
+       color: #000000a9;
    }
 
    .tabs li.active a{
-        color: #195bb1c9;
+        color: #16498dc9;
    }
    
 
