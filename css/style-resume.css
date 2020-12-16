@@ -72,7 +72,6 @@ h6{font-family: 'Oswald', sans-serif!important;}
 
 .left-technical li {
     list-style: none;
-    
     font-weight: 600;
     color: #383838;
     font-size: 14px;
@@ -97,7 +96,7 @@ h6{font-family: 'Oswald', sans-serif!important;}
 }
 
 .left-technical span {
-    width: 205px;
+    width: 210px;
     display: inline-block;
     text-transform: uppercase;
 }
