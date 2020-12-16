@@ -72,16 +72,23 @@ h6{font-family: 'Oswald', sans-serif!important;}
 
 .left-technical li {
     list-style: none;
-    margin-bottom: 10px;
+    
     font-weight: 600;
     color: #383838;
     font-size: 14px;
 
 }
 
+.list-space {
+    margin-bottom: 10px;
+
+}
+
 .text-color {
     color: #19529cc9;
 }
+
+
 
 .left-contact span {
     width: 84px;
